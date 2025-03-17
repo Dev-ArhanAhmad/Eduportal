@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>Dropdown Catalog - Dark Theme</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1e1e1e;
+            color: white;
+            padding: 20px;
+        }
+
+        h2 {
+            font-size: 22px;
+            font-weight: bold;
+            margin-top: 50px;
+        }
+
+        details {
+            margin-bottom: 8px;
+            padding: 6px;
+            border-radius: 4px;
+        }
+
+        summary {
+            font-weight: bold;
+            cursor: pointer;
+            padding: 8px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 4px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        summary:hover {
+            background: rgba(255, 255, 255, 0.2);
+        }
+
+
+        .pdf {
+            display: flex;
+            align-items: center;
+            padding: 6px 0;
+        }
+
+        .pdf img {
+            width: 16px;
+            height: 16px;
+            margin-right: 8px;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+            font-size: 14px;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        ul {
+            padding-left: 20px;
+            list-style: none;
+        }
+
+        .back-icon {
+            position: fixed;
+            top: 6px;
+            left: 20px;
+            font-size: 24px;
+            color: white;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 10px;
+            border-radius: 50%;
+            text-align: center;
+            transition: background 0.3s ease-in-out;
+        }
+
+        .back-icon:hover {
+            background: rgba(255, 255, 255, 0.3);
+        }
+
+
+    </style>
+</head>
+
+<body>
+
+    <a href="index.html" class="back-icon">
+        <i class="fas fa-arrow-left"></i>
+    </a>
+
+    <h2>Digital Library</h2>
+    <details>
+        <summary>Computer Information Technology</summary>
+        <details>
+            <summary>CIT First Year</summary>
+            <ul>
+                <li class="pdf"><img src="./Assets/PDF_file_icon.svg" alt="PDF">
+                    <a href="./CIT 1/CH-132.pdf" target="_blank">Chemistry (CH-132)</a>
+                </li>
+                <li class="pdf"><img src="./Assets/PDF_file_icon.svg" alt="PDF">
+                    <a href="./CIT 1/CIT-113.pdf" target="_blank">Introduction to Computer Programming (CIT-113)</a>
+                </li>
+                <li class="pdf"><img src="./Assets/PDF_file_icon.svg" alt="PDF">
+                    <a href="./CIT 1/CIT-134.pdf" target="_blank">ELECTRONICS-I (CIT-134) </a>
+                </li>
+                <li class="pdf"><img src="./Assets/PDF_file_icon.svg" alt="PDF">
+                    <a href="./CIT 1/Math-123.pdf" target="_blank">MATHEMATICS-I (Math-123)</a>
+                </li>
+                <li class="pdf"><img src="./Assets/PDF_file_icon.svg" alt="PDF">
+                    <a href="./CIT 1/PHY-132.pdf" target="_blank">Physics (PHY-132)</a>
+                </li>
+            </ul>
+        </details>
+
+        <details>
+            <summary>CIT Second Year</summary>
+            <ul>
+                <li class="pdf"><img src="./Assets/PDF_file_icon.svg" alt="PDF">
+                    <a href="./CIT 2/CIT-212.pdf" target="_blank">OBJECT ORIENTED PROGRAMMING WITH JAVA (CIT-212)</a>
+                </li>
+                <li class="pdf"><img src="./Assets/PDF_file_icon.svg" alt="PDF">
+                    <a href="./CIT 2/CIT-223.pdf" target="_blank">Computer Networks (CIT-223)</a>
+                </li>
+                <li class="pdf"><img src="./Assets/PDF_file_icon.svg" alt="PDF">
+                    <a href="./CIT 2/CIT-244.pdf" target="_blank">ELECTRONICS-II (CIT-244) </a>
+                </li>
+                <li class="pdf"><img src="./Assets/PDF_file_icon.svg" alt="PDF">
+                    <a href="./CIT 2/CIT-263.pdf" target="_blank">Relational Data Base
+                        Management System (CIT-263)</a>
+                </li>
+                <li class="pdf"><img src="./Assets/PDF_file_icon.svg" alt="PDF">
+                    <a href="./CIT 2/MGM-211.pdf" target="_blank">Business Communication (MGM-211)</a>
+                </li>
+            </ul>
+        </details>
+
+        <details>
+            <summary>CIT Third Year</summary>
+            <ul>
+                <li class="pdf"><img src="./Assets/PDF_file_icon.svg" alt="PDF">
+                    <a href="./CIT3/CIT-303.pdf" target="_blank">Web Development with
+                        JAVA (CIT-303)</a>
+                </li>
+                <li class="pdf"><img src="./Assets/PDF_file_icon.svg" alt="PDF">
+                    <a href="./CIT3/CIT-311.pdf" target="_blank">Technical Report Writing (ENG-311)</a>
+                </li>
+                <li class="pdf"><img src="./Assets/PDF_file_icon.svg" alt="PDF">
+                    <a href="./CIT3/CIT-324.pdf" target="_blank">NETWORK
+                        ADMINISTRATION (CIT-324) </a>
+                </li>
+                <li class="pdf"><img src="./Assets/PDF_file_icon.svg" alt="PDF">
+                    <a href="./CIT3/CIT-344.pdf" target="_blank">GRAPHIC DESIGN (CIT-344)</a>
+                </li>
+                <li class="pdf"><img src="./Assets/PDF_file_icon.svg" alt="PDF">
+                    <a href="./CIT3/CIT-333.pdf" target="_blank">OPERATING SYSTEM (CIT-333)</a>
+                </li>
+                <li class="pdf"><img src="./Assets/PDF_file_icon.svg" alt="PDF">
+                    <a href="./CIT3/CIT-352.pdf " target="_blank">PC SYSTEM AND
+                        PERIPHERAL
+                        REPAIR (CIT-352)</a>
+                </li>
+
+            </ul>
+        </details>
+
+
+    </details>
+
+    <details>
+        <summary>Biomedical Technology</summary>
+        <details>
+            <summary>Biomedical First Year</summary>
+            <ul>
+                <li class="pdf"><img src="./Assets/PDF_file_icon.svg" alt="PDF">
+                    <a href="./biomediacal 1/BMI-122.pdf" target="_blank">FUNDAMENTALS OF BIOMEDICAL
+                        EQUIPMENT & INTERFACES (BMI-122)</a>
+                </li>
+                <li class="pdf"><img src="./Assets/PDF_file_icon.svg" alt="PDF">
+                    <a href="./biomediacal 1/CH-132.pdf" target="_blank">APPLIED
+                        CHEMISTRY (CH-132)</a>
+                </li>
+                <li class="pdf"><img src="./Assets/PDF_file_icon.svg" alt="PDF">
+                    <a href="./biomediacal 1/Comp-122.pdf" target="_blank">Computer Applications (comp-122) </a>
+                </li>
+                <li class="pdf"><img src="./Assets/PDF_file_icon.svg" alt="PDF">
+                    <a href="./CIT 1/Math-123.pdf" target="_blank">Electrical Essentials & Networks (Math-123)</a>
+                </li>
+                <li class="pdf"><img src="./Assets/PDF_file_icon.svg" alt="PDF">
+                    <a href="./CIT 1/PHY-132.pdf" target="_blank">Physics (PHY-132)</a>
+                </li>
+            </ul>
+        </details>
+
+        <details>
+            <summary>Biomedical Second Year</summary>
+            <ul>
+                <li class="pdf"><img src="./Assets/PDF_file_icon.svg" alt="PDF">
+                    <a href="./biomediacal 1/BMI-122.pdf" target="_blank">FUNDAMENTALS OF BIOMEDICAL
+                        EQUIPMENT & INTERFACES (BMI-122)</a>
+                </li>
+                <li class="pdf"><img src="./Assets/PDF_file_icon.svg" alt="PDF">
+                    <a href="./biomediacal 1/CH-132.pdf" target="_blank">APPLIED
+                        CHEMISTRY (CH-132)</a>
+                </li>
+                <li class="pdf"><img src="./Assets/PDF_file_icon.svg" alt="PDF">
+                    <a href="./biomediacal 1/Comp-122.pdf" target="_blank">Computer Applications (comp-122) </a>
+                </li>
+                <li class="pdf"><img src="./Assets/PDF_file_icon.svg" alt="PDF">
+                    <a href="./CIT 1/Math-123.pdf" target="_blank">Electrical Essentials & Networks (Math-123)</a>
+                </li>
+                <li class="pdf"><img src="./Assets/PDF_file_icon.svg" alt="PDF">
+                    <a href="./CIT 1/PHY-132.pdf" target="_blank">Physics (PHY-132)</a>
+                </li>
+            </ul>
+        </details>
+
+        <details>
+            <summary>Biomedical Third Year</summary>
+            <ul>
+                <li class="pdf"><img src="./Assets/PDF_file_icon.svg" alt="PDF">
+                    <a href="./biomediacal 1/BMI-122.pdf" target="_blank">FUNDAMENTALS OF BIOMEDICAL
+                        EQUIPMENT & INTERFACES (BMI-122)</a>
+                </li>
+                <li class="pdf"><img src="./Assets/PDF_file_icon.svg" alt="PDF">
+                    <a href="./biomediacal 1/CH-132.pdf" target="_blank">APPLIED
+                        CHEMISTRY (CH-132)</a>
+                </li>
+                <li class="pdf"><img src="./Assets/PDF_file_icon.svg" alt="PDF">
+                    <a href="./biomediacal 1/Comp-122.pdf" target="_blank">Computer Applications (comp-122) </a>
+                </li>
+                <li class="pdf"><img src="./Assets/PDF_file_icon.svg" alt="PDF">
+                    <a href="./CIT 1/Math-123.pdf" target="_blank">Electrical Essentials & Networks (Math-123)</a>
+                </li>
+                <li class="pdf"><img src="./Assets/PDF_file_icon.svg" alt="PDF">
+                    <a href="./CIT 1/PHY-132.pdf" target="_blank">Physics (PHY-132)</a>
+                </li>
+            </ul>
+        </details>
+
+
+    </details>
+
+    <details>
+        <summary>PGA Technology</summary>
+        <details>
+            <summary>PGA First Year</summary>
+            <ul>
+                <li class="pdf"><img src="./Assets/PDF_file_icon.svg" alt="PDF">
+                    <a href="./PGA 1/Comp-142.pdf" target="_blank">Computer Applications (Comp-142)</a>
+                </li>
+                <li class="pdf"><img src="./Assets/PDF_file_icon.svg" alt="PDF">
+                    <a href="./PGA 1/Math-113.pdf" target="_blank">APPLIED
+                        MATHEMATICS-I (Math-113)</a>
+                </li>
+                <li class="pdf"><img src="./Assets/PDF_file_icon.svg" alt="PDF">
+                    <a href="./PGA 1/PGA-112.pdf" target="_blank">Screen Printing (PGA-112) </a>
+                </li>
+                <li class="pdf"><img src="./Assets/PDF_file_icon.svg" alt="PDF">
+                    <a href="./PGA 1/PGA-124.pdf" target="_blank">Graphic Design (PGA-124)</a>
+                </li>
+            </ul>
+        </details>
+
+        <details>
+            <summary>PGA Second Year</summary>
+            <ul>
+                <li class="pdf"><img src="./Assets/PDF_file_icon.svg" alt="PDF">
+                    <a href="./PGA 1/Comp-142.pdf" target="_blank">Computer Applications (Comp-142)</a>
+                </li>
+                <li class="pdf"><img src="./Assets/PDF_file_icon.svg" alt="PDF">
+                    <a href="./PGA 1/Math-113.pdf" target="_blank">APPLIED
+                        MATHEMATICS-I (Math-113)</a>
+                </li>
+                <li class="pdf"><img src="./Assets/PDF_file_icon.svg" alt="PDF">
+                    <a href="./PGA 1/PGA-112.pdf" target="_blank">Screen Printing (PGA-112) </a>
+                </li>
+                <li class="pdf"><img src="./Assets/PDF_file_icon.svg" alt="PDF">
+                    <a href="./PGA 1/PGA-124.pdf" target="_blank">Graphic Design (PGA-124)</a>
+                </li>
+            </ul>
+        </details>
+
+        <details>
+            <summary>PGA Third Year</summary>
+            <ul>
+                <li class="pdf"><img src="./Assets/PDF_file_icon.svg" alt="PDF">
+                    <a href="./PGA 1/Comp-142.pdf" target="_blank">Computer Applications (Comp-142)</a>
+                </li>
+                <li class="pdf"><img src="./Assets/PDF_file_icon.svg" alt="PDF">
+                    <a href="./PGA 1/Math-113.pdf" target="_blank">APPLIED
+                        MATHEMATICS-I (Math-113)</a>
+                </li>
+                <li class="pdf"><img src="./Assets/PDF_file_icon.svg" alt="PDF">
+                    <a href="./PGA 1/PGA-112.pdf" target="_blank">Screen Printing (PGA-112) </a>
+                </li>
+                <li class="pdf"><img src="./Assets/PDF_file_icon.svg" alt="PDF">
+                    <a href="./PGA 1/PGA-124.pdf" target="_blank">Graphic Design (PGA-124)</a>
+                </li>
+            </ul>
+        </details>
+
+
+    </details>
+</body>
+
+</html>

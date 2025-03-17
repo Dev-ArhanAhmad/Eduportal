@@ -1,0 +1,162 @@
+body {
+    background-color: #121212;
+    color: white;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.9); /* Slight transparency */
+    padding: 15px 20px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #f8f9fa !important;
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+    font-size: 1.1rem;
+    margin-right: 15px;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #f0ad4e !important; /* Highlight on hover */
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.hero {
+    background: url('./Assets/WhatsApp\ Image\ 2025-02-25\ at\ 9.07.02\ PM.jpeg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.hero h1,
+.hero p {
+    position: relative;
+    z-index: 2;
+}
+
+.hero::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    /* Dark overlay for readability */
+    z-index: 1;
+}
+
+.about-section {
+    padding: 80px 0;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+}
+
+.about-section img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.about-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+.services-section {
+    padding: 80px 0;
+    background-color: #222;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.section-subtitle {
+    font-size: 1.2rem;
+    color: #bbb;
+    margin-bottom: 30px;
+}
+
+.service-box {
+    display: block;
+    background: #333;
+    padding: 30px;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    text-decoration: none;
+    color: white;
+}
+
+.service-box h4 {
+    color: #f0ad4e;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.service-box p {
+    color: #ddd;
+    font-size: 1rem;
+}
+
+.service-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.2);
+    background-color: #444;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.hero h1,
+.hero p {
+    animation: fadeIn 1.5s ease-in-out;
+}
